@@ -8,7 +8,7 @@ export default function Home() {
       <h2 className='text-center mx-auto font-bold text-[#0FC3D8] text-4xl mb-8'>Hello and welcome to our special corner of joy</h2>
 
       <div className="text-center mx-auto">
-      <p className='mb-8 text-2xl'>We are thrilled to share a wonderful milestone with you. Your presence means the world to us, and we can't wait to share this exciting opportunity with you. Take a moment to explore, and when you're ready, kindly click on the button to proceed"</p>
+      <p className='mb-8 text-2xl'>We are thrilled to share a wonderful milestone with you. Your presence means the world to us, and we can&apos;t wait to share this exciting opportunity with you. Take a moment to explore, and when you&apos;re ready, kindly click on the button to proceed!</p>
       
       <Link href='/welcome'>
       <button className="text-center justify-center align-middle mx-auto bg-[#0FC3D8] hover:bg-[#EF577C] cursor-pointer text-2xl text-white py-2 px-4 flex font-semibold rounded-3xl items-center">Proceed
