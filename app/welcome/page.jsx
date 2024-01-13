@@ -1,5 +1,5 @@
-
 "use client"
+import Image from 'next/image'
 import React, { useState, useEffect } from 'react';
 import Confetti from 'react-confetti';
 
@@ -84,10 +84,12 @@ export default function Home() {
         )}
       </div>
       {showPopup && (
-        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center">
-          <div className="bg-white p-8 rounded-md shadow-md text-center">
-            <h2 className="text-3xl font-bold mb-4 text-[#EF577C]">Congratulations!</h2>
-            <p>You are a grandma for the second time!</p>
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50 bg-black bg-opacity-50">
+          <div className="bg-white p-8 rounded-md shadow-md text-center w-[80%]">
+            <h2 className="text-3xl font-bold mb-4 text-[#EF577C]">Breaking News!</h2>
+            <Image src="/pic.jpg" alt="PT" width={300} height={300} className="mx-auto rounded border-2 border-[#0FC3D8] mb-3"/>
+            <p>Grandchild 2.0 is in production. Prepare for an adorable upgrade for Krandma duties &#x1F60D;</p>
+            
             <button
               className="bg-[#EF577C] hover:bg-[#0FC3D8] text-white py-2 px-4 mt-4 rounded-md"
               onClick={() => {
